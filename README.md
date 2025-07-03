@@ -1,5 +1,11 @@
 # Robot Motion Planning
 
+# How to Run
+
+Simply run PRM_test.py to see the result of the 3R planar arm, PRM_test2.py for the 4R, and PRM_test3.py for the 2R. Make sure you have installed all the necessary libraries using terminal. The shapely library can be installed at this link: https://pypi.org/project/shapely/ and matplotlib can be installed with the command below.
+
+    pip install matplotlib
+
 ## Introduction
 
 One of the most practical uses of artificial intelligence is how we can engineer robots to learn to carry out tasks for us. At the basis of this problem is making sure they can properly move and navigate through our world. In this project, I use a probabilistic roadmap (PRM) to help a robot arm bend its joints in such a way that it can move from a start to goal state around certain obstacles. 
